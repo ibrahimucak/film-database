@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #566787;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myButton {
+  @apply inline-flex items-center gap-1 py-2 px-3 text-white rounded cursor-pointer text-sm transition-colors tracking-tighter;
+}
+
+th {
+  @apply py-3 px-2;
+}
+td {
+  @apply p-2;
+}
+
+tr:nth-child(2n) {
+  @apply bg-zinc-100;
+}
+tr {
+  @apply hover:bg-sky-50;
+}
+
+input,
+textarea {
+  @apply rounded border border-zinc-300 block w-full;
+}
+
+input {
+  @apply h-10 px-2;
+}
+
+.view-label {
+  @apply text-right font-bold w-32 pr-4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

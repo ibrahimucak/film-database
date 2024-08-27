@@ -1,0 +1,306 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 18,
+  "numPassedTests": 1,
+  "numFailedTests": 17,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1712163600044,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde /movies/edit/:id routeu tanımlanmış",
+          "status": "passed",
+          "title": "App.jsxde /movies/edit/:id routeu tanımlanmış",
+          "duration": 124,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " EditMovieForm.jsxde useParmas hooku kullanılmış",
+          "status": "failed",
+          "title": "EditMovieForm.jsxde useParmas hooku kullanılmış",
+          "duration": 49,
+          "failureMessages": [
+            "expected 'importReact,{useState,useEffect}from\\…' to include 'useParams()'"
+          ],
+          "location": {
+            "line": 74,
+            "column": 29
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Edit Movie Routeunda ilgili film datası geliyor.",
+          "status": "failed",
+          "title": "Edit Movie Routeunda ilgili film datası geliyor.",
+          "duration": 282,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
+          "status": "failed",
+          "title": "Edit Movie editlenmiş filmi başarılı bir şekilde submit ediyor ve film detay sayfasına yönleniyor",
+          "duration": 23,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Movie componentine sil butonu eklenmiş",
+          "status": "failed",
+          "title": "Movie componentine sil butonu eklenmiş",
+          "duration": 18,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
+          "status": "failed",
+          "title": "Film başarılı bir şekilde siliyor ve tüm filmler sayfasını açıyor.",
+          "duration": 25,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
+          "status": "failed",
+          "title": "AddMovieForm componenti için AddMovieForm.jsc dosyası eklenmiş.",
+          "duration": 30,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde /movies/add routeu tanımlanmış",
+          "status": "failed",
+          "title": "App.jsxde /movies/add routeu tanımlanmış",
+          "duration": 49,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekle butonu film ekle sayfasını açıyor.",
+          "status": "failed",
+          "title": "Yeni film ekle butonu film ekle sayfasını açıyor.",
+          "duration": 19,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
+          "status": "failed",
+          "title": "Yeni film ekle sayfasında label kullanılmış ve ilgili input alanına bağlanmış.",
+          "duration": 16,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
+          "status": "failed",
+          "title": "Yeni film ekleniyor ve movie sayfasına yönlendiriyor.",
+          "duration": 16,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Filmler favorilere ekleniyor.",
+          "status": "failed",
+          "title": "Filmler favorilere ekleniyor.",
+          "duration": 19,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Filmler favorilere 2. kez eklenemiyor.",
+          "status": "failed",
+          "title": "Filmler favorilere 2. kez eklenemiyor.",
+          "duration": 20,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Film silinince favorilerden de siliniyor",
+          "status": "failed",
+          "title": "Film silinince favorilerden de siliniyor",
+          "duration": 14,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
+          "status": "failed",
+          "title": "DarkMode \"dark bg-slate-900 h-screen\" classlarını idsi main-container olan dive ekliyor",
+          "duration": 18,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " DarkMode başlangıçta on, tıklanınca off oluyor",
+          "status": "failed",
+          "title": "DarkMode başlangıçta on, tıklanınca off oluyor",
+          "duration": 14,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
+          "status": "failed",
+          "title": "Ana Sayfa Dark Mode On yazarak başlıyor, tıklanınca Dark Mode Off yazıyor",
+          "duration": 15,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
+          "status": "failed",
+          "title": "Dark Mode değeri localstorageda s11d3 anahtarı ile tutuluyor",
+          "duration": 11,
+          "failureMessages": [
+            "id is not defined"
+          ],
+          "location": {
+            "line": 201,
+            "column": 97
+          }
+        }
+      ],
+      "startTime": 1712163806588,
+      "endTime": 1712163807357,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-kryrnt/src/__tests__/index.test.jsx"
+    }
+  ]
+}
